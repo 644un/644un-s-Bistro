@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>644un's Bistro</title>
+        <link rel="icon" type="image/x-icon" href="https://i.ibb.co/tMnd5vSJ/2026-07-06-0ih-Kleki.png">
+        <meta charset="UTF-8" name="viewport" content="width=device-width inital-scale=1.0">
+
+        <style>
+            body {
+                background-color: burlywood;
+            }
+            .logo {
+                background-color: grey;
+                overflow: hidden;
+                margin: 5px;
+            }
+            .intro {
+                background-color: rgb(203, 157, 39);
+                margin: 5px;
+                overflow: hidden;
+                position: relative;
+            }
+            .intro > h1 {
+                font-family: sans-serif;
+                margin-left: 42.5vw;
+                font-size: 1.5vw;
+            }
+            .intro > p {
+                font-family: sans-serif;
+                position: absolute;
+                right: 15vw;
+                left: 10.4vw;
+                bottom: 10.5vw;
+                font-size: 1vw;
+                text-align: center;
+                font-weight: bold;
+            }
+            .intro > div > img {
+                text-align: center;
+            }
+            .introMenu {
+                display: flex;
+                margin-left: 33vw;
+                margin-top: 3vw;
+            }
+            .introMenu > div {
+                padding: 0.2vw;
+                margin: 0.2vw; 
+            }
+        </style>
+    </head>
+    <body>
+
+        <header class="logo">
+            <img src="https://i.ibb.co/tMnd5vSJ/2026-07-06-0ih-Kleki.png" alt="logo" style="width: 50vw; height: auto; 
+            margin-left: 25vw; margin-right: 25vw;">
+        </header>
+        
+        <section class="intro">
+            <h1>Welcome</h1>
+
+            <p>We provide the best food here at 644un's Bistro. Our menu contanins many dishes, including Spaghetti, 
+                Mac &amp; Cheese and Lasagna
+                <br>
+                We also provide a wide range of drinks, including our signature, Mango Tropical Punch!
+                <br>
+            </p>
+            <div class="introMenu">
+            <div>
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.vhXeg-u6nWMdOCEn3efMDgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                     alt="intro-drink" style="width: 10vw; height: auto;">
+            </div>
+            <div>
+                 <img src="https://lialondon.net/wp-content/uploads/2026/01/10911/this-famous-london-restaurant-is-bringing-back-its-legendary-10-layer-lasagna-1024x636.jpg" 
+                     alt="intro-drink" style="width: 16.3vw; height: auto;">
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
